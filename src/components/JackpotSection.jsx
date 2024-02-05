@@ -28,7 +28,7 @@ const JackpotSection = () => {
                                 <img src={jackpot} alt="img" className='w-full max-h-[438px]' />
                             </div>
                             <div className='lg:w-1/2 pr-3 pl-[20px] pt-[30px]'>
-                                <p className='text-white text-[35px] sm:text-[48px] leading-[57.6px] xl:text-nowrap mb-[16px] font-normal font-anton'>Potenciando sus elecciones</p>
+                                <p className='text-white text-[35px] sm:text-[48px] leading-[57.6px] xl:text-nowrap mb-[16px] font-normal font-[Anton]'>Potenciando sus elecciones</p>
                                 <p className='text-white text-[14px] sm:text-[16px] leading-[25.6px] mb-[32px] font-medium font-inter'>Con Exclusive Game lo mejor está de tu lado.</p>
                                 <div className='flex gap-2 mb-3 '>
                                     <TickSign />
@@ -56,7 +56,7 @@ const JackpotSection = () => {
                     </div>
                     <div className='px-3'>
                         <div className='max-w-[1044px] mx-auto rounded-[16px] mt-[50px] md:mt-[150px] relative z-[1] overflow-hidden border-[1px] border-white flex items-center justify-center py-[50px] sm:py-[96px]'>
-                            <p className=' font-anton font-normal max-w-[520px] text-[36px] sm:text-[48px] text-center leading-[48px] sm:leading-[57.6px] text-white'>
+                            <p className=' font-[Anton] font-normal max-w-[520px] text-[36px] sm:text-[48px] text-center leading-[48px] sm:leading-[57.6px] text-white'>
                                 lanza tu propia plataforma en sólo 2 semanas
                             </p>
                             <div className='absolute left-0 z-[-1] h-full' >
@@ -68,7 +68,7 @@ const JackpotSection = () => {
                         </div>
                     </div>
                     <div className=' mx-auto container  max-w-[1140px] mt-[80px] md:mt-[135px] px-3'>
-                        <p className='text-white text-xl sm:text-[48px] leading-[57.6px] font-anton text-center font-[400]'>Juegos en vivo</p>
+                        <p className='text-white text-xl sm:text-[48px] leading-[57.6px] font-[Anton] text-center font-[400]'>Juegos en vivo</p>
                         <div className='grid grid-cols-1 mt-[60px] mb-[40px] md:grid-cols-2 xl:grid-cols-3 w-full lg:gap-5 xl:gap-[24px]' >
                             {product.map((items, index) => (
                                 <div key={index}>

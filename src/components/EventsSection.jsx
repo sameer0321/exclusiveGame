@@ -12,7 +12,7 @@ const EventsSection = () => {
     return (
         <>
             <div className=' mx-auto container max-w-[1140px] mt-[60px] md:mt-[150px] px-3'>
-                <p className='text-white text-[30px] sm:text-[48px] sm:leading-[57.6px] font-anton text-center font-[400] leading-[40px]'>Ellos eligieron apostar con nosotros</p>
+                <p className='text-white text-[30px] sm:text-[48px] sm:leading-[57.6px] font-[Anton] text-center font-[400] leading-[40px]'>Ellos eligieron apostar con nosotros</p>
                 <div className='grid grid-cols-1 sm:mt-[45px] mt-[30px] md:mt-[60px] mb-[40px] sm:grid-cols-2 lg:grid-cols-3 w-full gap-4 lg:gap-5 xl:gap-[24px]' >
                     {products.map((item, index) => (
                         <div key={index}>

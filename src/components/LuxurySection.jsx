@@ -11,9 +11,9 @@ const LuxurySection = () => {
             <div className=' mx-4 z-[1]'>
                 <div className='container relative z-[1] border-[1px] bg-[#062027] border-[#849191] bg-[url(../assets/images/luxury-bg-img.webp  )] sm:py-[50px] py-[20px] md:py-[60px] sm:mt-[50px] mt-[35px] md:mt-[60px] sm:mb-[50px] mb-[35px] md:mb-[60px] rounded-[16px]'>
                     <div className='flex items-center justify-center flex-col'>
-                        <p className='text-white text-[24px] sm:text-[32px] leading-[57.6px] mb-[16px] font-normal text-nowrap max-xl:text-[38px] font-anton'>Luxury</p>
+                        <p className='text-white text-[24px] sm:text-[32px] leading-[57.6px] mb-[16px] font-normal text-nowrap max-xl:text-[38px] font-[Anton]'>Luxury</p>
                         <p className='text-white text-center max-sm:text-[13px] sm:text-[16px] max-w-[401px] leading-[25.6px] mb-[24px] font-medium font-inter'>lleva tu experiencia de juego al siguiente nivel. Con todas las características de la versión Silver y la potencia adicional de la tecnología React .</p>
-                        <p className='text-white max-sm:[text-32px] sm:text-[48px] leading-[57.6px] mb-[24px] font-normal text-nowrap max-xl:text-[38px] font-anton'>$9000</p>
+                        <p className='text-white max-sm:[text-32px] sm:text-[48px] leading-[57.6px] mb-[24px] font-normal text-nowrap max-xl:text-[38px] font-[Anton]'>$9000</p>
                         <div className='max-w-[420px]'>
                             <div className='flex gap-2 mb-[20px]'>
                                 <TickSign className='!w-[24px]' />
