@@ -4,7 +4,7 @@ import SlotsSection from './SlotsSection'
 
 const WhiteSection = () => {
     return (
-        <div className=' max-[1030px]:bg-white bg-[url(./assets/images/First-white-bg-img.webp)] bg-no-repeat bg-100  py-[50px] lg:py-[243px]'>
+        <div className=' max-[1030px]:bg-white bg-[url(./assets/images/First-white-bg-img.webp)] bg-no-repeat bg-100 relative z-10 py-[50px] lg:py-[243px]'>
             <RoadMap />
             <SlotsSection />
         </div>
