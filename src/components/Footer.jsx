@@ -11,7 +11,9 @@ const Footer = () => {
                 <div className=' max-w-[1160px] container mx-auto px-3 relative'>
                     <div className=' flex flex-wrap  flex-row -mx-3 pt-[50px]'>
                         <div className='w-full xl:w-1/3 px-3'>
-                            <img src={Footerlogo} alt="footerlogo" className='max-w-[210px]' />
+                            <a href="#">
+                                <img src={Footerlogo} alt="footerlogo" className='max-w-[210px]' />
+                            </a>
                             <p className='font-[Inter] font-medium text-[13px] sm:text-[16px]  leading-6  max-w-[369px] text-[#CCCCCC] pt-[16px]'>En Exclusive Games somos un equipo apasionado de personas dedicadas al desarrollo de multiplataformas para juegos de azar</p>
                             <ul className=" flex gap-5 pt-6">
                                 <a className='group' href="https://www.instagram.com/" target="_blank">

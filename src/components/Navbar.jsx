@@ -19,7 +19,9 @@ const Navbar = () => {
       <nav className='bg-[#FFFFFF1A] py-[24px]'>
         <div className='container flex items-center justify-between'>
           <div>
-            <img src={logo} alt="logo" />
+            <a href="#">
+              <img src={logo} alt="logo" />
+            </a>
           </div>
           <ul className={`${nav ? "left-0" : "left-[-100%]"
             } flex items-center gap-[28px] mobileView duration-300`}>
