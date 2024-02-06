@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <>
             <div className='bg-[#000000] pt-[20px] pb-[50px] relative overflow-hidden' >
-                <span className=' absolute bottom-0'><Footerleft /></span>
-                <span className=' absolute end-0 top-50'><Footerright /></span>
+                <span className=' absolute bottom-0 animate-pulse max-md:hidden'><Footerleft /></span>
+                <span className=' absolute end-0 top-50 animate-pulse max-md:hidden'><Footerright /></span>
                 <div className=' max-w-[1160px] container mx-auto px-3 relative'>
                     <div className=' flex flex-wrap  flex-row -mx-3 pt-[50px]'>
                         <div className='w-full xl:w-1/3 px-3'>

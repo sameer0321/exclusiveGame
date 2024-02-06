@@ -8,7 +8,7 @@ import { TickSign } from './Icon'
 const LuxurySection = () => {
     return (
         <>
-            <div className=' mx-4 z-[1]'>
+            <div className='relative z-[2] mx-4'>
                 <div className='container relative z-[1] border-[1px] bg-[#062027] border-[#849191] bg-[url(../assets/images/luxury-bg-img.webp  )] sm:py-[50px] py-[20px] md:py-[60px] sm:mt-[50px] mt-[35px] md:mt-[60px] sm:mb-[50px] mb-[35px] md:mb-[60px] rounded-[16px]'>
                     <div className='flex items-center justify-center flex-col'>
                         <p className='text-white text-[24px] sm:text-[32px] leading-[57.6px] mb-[16px] font-normal text-nowrap max-xl:text-[38px] font-[Anton]'>Luxury</p>

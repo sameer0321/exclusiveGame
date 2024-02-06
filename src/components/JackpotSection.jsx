@@ -18,8 +18,8 @@ const JackpotSection = () => {
     ]
     return (
         <>
-            <div className='relative z-[1]'>
-                <img src={elipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-34%] right-0'></img>
+            <div id='section4' className='relative z-[1]'>
+                <img src={elipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-34%] right-0 max-md:hidden'></img>
                 <img src={elipse1} alt='image' className='z-[-1] animate-pulse absolute top-[-50%] left-[0%] max-md:hidden'></img>
                 <div className='bg-[url(./assets/images/jackpot-section-bg-layer.webp)] bg-cover bg-no-repeat bg-center md:pt-[90px]'>
                     <div className=' px-3 mx-auto max-w-[1140px]'>
@@ -67,13 +67,14 @@ const JackpotSection = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className=' mx-auto container  max-w-[1140px] mt-[80px] md:mt-[135px] px-3'>
                         <p className='text-white text-xl sm:text-[48px] leading-[57.6px] font-[Anton] text-center font-[400]'>Juegos en vivo</p>
-                        <div className='grid grid-cols-1 mt-[60px] mb-[40px] md:grid-cols-2 xl:grid-cols-3 w-full lg:gap-5 xl:gap-[24px]' >
+                        <div className='grid grid-cols-1 mt-[60px] mb-[40px] sm:grid-cols-2 lg:grid-cols-3 w-full gap-5 xl:gap-[24px]' >
                             {product.map((items, index) => (
                                 <div key={index}>
-                                    <div className='w-full h-full relative overflow-auto rounded-[8px] group duration-300 cursor-pointer'>
-                                        <img className="w-full" src={items.img} alt="" />
+                                    <div className='max-md:flex max-md:justify-center w-full h-full relative overflow-auto rounded-[8px] group duration-300 cursor-pointer'>
+                                        <img className="w-full max-md:max-w-[356px]" src={items.img} alt="" />
                                         <div className=' absolute bg-[#000000B8] w-full h-full scale-0 group-hover:scale-100 flex items-center justify-center left-0 bottom-0 group-hover:opacity-100 opacity-0 duration-300'>
                                             <WhiteBtn text='Reproducir ahora' />
                                         </div>

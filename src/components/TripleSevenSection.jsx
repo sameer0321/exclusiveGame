@@ -8,17 +8,17 @@ import elipse2 from '../assets/images/elipse-2.webp'
 const TripleSevenSection = () => {
     return (
         <>
-            <div className='relative z-[1]'>
-                <img src={elipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-116%] right-0'></img>
+            <div id='section6' className='relative z-[1]'>
+                <img src={elipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-116%] right-0 max-md:hidden'></img>
                 <img src={elipse1} alt='image' className='z-[-1] animate-pulse absolute bottom-[40%] left-[0%] max-md:hidden'></img>
-                <div className='container mt-[100px]'>
+                <div className='container mt-[100px] relative z-[2]'>
                     <div className='row items-center justify-center'>
-                        <div className='md:w-1/2 px-3'>
+                        <div className='lg:w-1/2 px-3'>
                             <img src={TripleSevenImg} alt="triple-7" className='w-full max-w-[558px]' />
                         </div>
-                        <div className='md:w-1/2 px-3 h-full'>
-                            <p className='text-white max-sm:[text-26px] leading-[57.6px] lg:mb-[60px] mb-7 font-normal max-xl:text-[38px] xl:text-[48px] font-[Anton]'>Más razones para elegirnos</p>
-                            <div className='max-w-[374px]'>
+                        <div className='lg:w-1/2 px-3 h-full'>
+                            <p className='text-white max-sm:[text-26px] leading-[57.6px] mb-7 font-normal max-xl:text-[38px] xl:text-[48px] font-[Anton]'>Más razones para elegirnos</p>
+                              <div className='max-w-[374px]'>
                                 <div className='flex border-[0.5px] border-white    bg-grad items-center justify-center py-[24px] gap-[37px] mb-7 max-w-[374px] rounded-[16px]'>
                                     <img src={icon1} alt="icon-1" />
                                     <div className='flex flex-col'>

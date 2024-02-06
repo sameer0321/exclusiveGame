@@ -8,8 +8,8 @@ import { LinkBtn } from './Icon'
 const SecondSection = () => {
     return (
         <>
-            <div className='relative z-[1]'>
-                <img src={elipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-80%] right-0'></img>
+            <div className='relative z-[1]' id='section2'>
+                <img src={elipse2} alt='image' className='z-[-1] animate-pulse absolute bottom-[-80%] right-0 max-md:hidden'></img>
                 <img src={elipse1} alt='image' className='z-[-1] animate-pulse absolute bottom-[0%] left-[0%] max-md:hidden'></img>
                 <div className='container md:pt-[74px] pb-[50px] md:pb-[100px]'>
                     <div className='row'>

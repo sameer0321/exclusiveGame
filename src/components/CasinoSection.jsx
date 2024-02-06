@@ -5,7 +5,7 @@ import GradientBtn from './GradientBtn'
 const CasinoSection = () => {
     return (
         <>
-            <div className='max-md:bg-white bg-[url(./assets/images/Second-white-bg-img.webp)] bg-no-repeat bg-100 py-[50px] md:pt-[304px] md:pb-[324px]'>
+            <div id='section5' className='max-md:bg-white bg-[url(./assets/images/Second-white-bg-img.webp)] bg-no-repeat bg-100 py-[50px] md:pt-[304px] md:pb-[324px]'>
                 <div className='max-w-[1140px] mx-auto px-3 py-[30px]'>
                     <div className='row'>
                         <div className=' w-full flex flex-col max-md:items-center md:w-1/2 px-3 my-auto'>
